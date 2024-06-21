@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitRoutine", "FitRoutine\FitRoutine.csproj", "{573C29DC-24F9-4DBD-8C49-E94C32F3B353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitRoutine", "FitRoutine\FitRoutine.csproj", "{573C29DC-24F9-4DBD-8C49-E94C32F3B353}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitRoutine.Application", "FitRoutine.Application\FitRoutine.Application.csproj", "{84EA52F8-6B41-4DF3-98F2-00C51286C2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitRoutine.Domain", "FitRoutine.Domain\FitRoutine.Domain.csproj", "{5B68D875-1CAC-45CE-AC85-165A175994CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{84EA52F8-6B41-4DF3-98F2-00C51286C2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84EA52F8-6B41-4DF3-98F2-00C51286C2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84EA52F8-6B41-4DF3-98F2-00C51286C2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B68D875-1CAC-45CE-AC85-165A175994CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B68D875-1CAC-45CE-AC85-165A175994CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B68D875-1CAC-45CE-AC85-165A175994CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B68D875-1CAC-45CE-AC85-165A175994CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
